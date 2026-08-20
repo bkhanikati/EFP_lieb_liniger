@@ -28,9 +28,9 @@ These data are the numerical values used in the figures and comparisons reported
 
 The coupling is selected by setting the parameter `c` near the beginning of the solver. Since the production calculations use \(\rho_0=1\), one has
 
-\[
+$$
 \gamma_0 = c.
-\]
+$$
 
 Running the script constructs the Lieb--Liniger equation of state and then minimizes the hydrodynamic action. The optimized EFP action and critical time can then be compared directly with the values in `hydrodynamic_results.csv`.
 The production calculations use double precision and a \(200\times200\) hydrodynamic grid. Further details of the parametrization, numerical domain, equation-of-state construction, and optimization procedure are given in the paper.
