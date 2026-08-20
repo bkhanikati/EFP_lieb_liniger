@@ -10,7 +10,7 @@ This repository contains the numerical code and data associated with the numeric
 - 'hydrodynamic_results.csv' — numerical results from the hydrodynamic minimization.
 - 'templateCode.py' — template code with adjustable parameters used to solve the Lieb--Liniger equation of state and minimize the Euclidean hydrodynamic action.
 
-The calculation is performed in units with \(R=1\) and \(\rho_0=1\).
+The calculation is performed in units with $R=1$ and $\rho_0=1$.
 
 ## Numerical data
 
@@ -18,7 +18,7 @@ The file `hydrodynamic_results.csv` contains one row for each interaction streng
 
 The columns are:
 
-- `gamma0` — dimensionless Lieb--Liniger coupling \(\gamma_0=c/\rho_0\).
+- `gamma0` — dimensionless Lieb--Liniger coupling $\gamma_0=c/\rho_0$.
 - `f_numerical` — dimensionless EFP rate function obtained from numerical minimization of the hydrodynamic action.
 - `tau_c` — optimized critical imaginary time of the emptiness instanton.
 
@@ -33,7 +33,7 @@ $$
 $$
 
 Running the script constructs the Lieb--Liniger equation of state and then minimizes the hydrodynamic action. The optimized EFP action and critical time can then be compared directly with the values in `hydrodynamic_results.csv`.
-The production calculations use double precision and a \(200\times200\) hydrodynamic grid. Further details of the parametrization, numerical domain, equation-of-state construction, and optimization procedure are given in the paper.
+The production calculations use double precision and a $200\times200$ hydrodynamic grid. Further details of the parametrization, numerical domain, equation-of-state construction, and optimization procedure are given in the paper.
 
 ## Reproducing plots
 
